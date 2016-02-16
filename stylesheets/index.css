@@ -1,0 +1,158 @@
+body,p{
+	margin: 0;
+	padding: 0;
+}
+#top{
+	width: 80%;
+	height: 30px;
+	border: 1px solid black;
+	line-height: 30px;
+	padding:0 30px;
+	margin: 0 auto;
+	background: black;
+	color: #fff; 
+}
+#shijian{
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+#fenshu{
+	/*width: 100px;*/
+	height: 100%;
+	float: right;
+}
+#screen{
+	width: 1100px;
+	height: 605px;
+	border: 1px solid black;
+	margin: -1px auto 0;
+	background: #eee;
+	position: relative;
+}
+#name{
+	width: 30px;
+	/*border: 1px solid black;*/
+	font-size: 3em;
+	position: absolute;
+	top: 100px;
+	right: 50px;
+}
+#zuo{
+	width: 104px;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+	text-align: center;
+}
+/*#zuo p{
+	margin: 5px 0;
+}*/
+#start{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+#start:hover{
+	background: blue;
+	color: #fff;
+}
+#nandu{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+#nandu:hover{
+	color: blue;
+}
+#nn{
+	margin: 6px 0;
+	font-size: 14px;
+	display: none;
+	line-height: 20px;
+}
+#moshi{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+#moshi:hover{
+	color: blue;
+}
+#mm{
+	margin: 6px 0;
+	font-size: 14px;
+	display: none;
+	line-height: 20px;
+}
+#shuoming{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+#shuoming:hover{
+	color: blue;
+}
+#ss{
+	margin: 6px 0;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: left;
+	display: none;
+}
+.block{
+	width: 55px;
+	height: 55px;
+	border-radius: 10px;
+	background: #fff;
+	text-align: center;
+	line-height: 55px;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	float: left;
+	opacity: 0;
+}
+#nd,#jiandan,#yiban,#kunnan,#ms,#jingdian,#jieji,#sm{
+	cursor: pointer;
+}
+#zhezhao{
+	width: 100%;
+	height: 100%;
+	/*border:1px solid black;*/
+	background: rgba(0,0,0,.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 50px;
+	display: none;
+}
+#aa,#cc{
+	margin-top: 140px;
+	font-size: 3em;
+	color: #fff;
+	line-height: 80px;
+}
+#cc{
+	margin-top: 10px;
+}
+#bb{ 
+	color: #ccc;
+	border: 1px solid #ccc;
+	width: 100px;
+	margin: 50px auto;
+}
+#bb:hover{
+	background: black;
+	color: #fff;
+	border-color: #fff;
+	cursor: pointer;
+}
